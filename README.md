@@ -38,7 +38,7 @@ This will show the content only before a certain date.
 
 ``` javascript
 <script>
-$('#selector').scheduleContent({
+	$('#selector').scheduleContent({
 	end:'12/26/2014'
 	});
 </script>
@@ -50,7 +50,7 @@ This will show the content between two dates.
 
 ``` javascript
 <script>
-$('#selector').scheduleContent({
+	$('#selector').scheduleContent({
 	start:'12/26/2014',
 	end:'12/31/2014'
 	});
@@ -61,4 +61,4 @@ $('#selector').scheduleContent({
 
 You can enter dates in any format accepted by [javascript](http://msdn.microsoft.com/en-us/library/ie/ff743760%28v=vs.94%29.aspx)
 
-#### Please see demo.html for a fully worked up example based on The Twelve Days Of Christmas
+**Please see [demo.html](https://github.com/55sketch/scheduled-content-plugin/blob/master/demo.html) for a fully worked up example based on The Twelve Days Of Christmas**
