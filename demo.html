@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The Twelve Days Of Christmas</title>
+	<style type="text/css">
+		@import url(http://fonts.googleapis.com/css?family=Neuton:400,700);
+
+		body {
+			font-family: 'Neuton', serif;
+			font-size:2em;
+		}
+
+		div {
+			width:80%;
+			margin:auto;
+		}
+
+		h1 {
+			text-align:center;
+		}
+
+		p {
+
+		}
+	</style>
+</head>
+<body>
+	<h1>The Twelve Days Of Christmas</h1>
+	<div id="day1">
+		<p>
+			On the first day of Christmas<br/>
+			my true love sent to me:<br/>
+			A Partridge in a Pear Tree<br/>
+		</p>
+	</div>
+	<div id="day2">
+		<p>
+			On the second day of Christmas<br/>
+			my true love sent to me:<br/>
+			Two Turtle Doves<br/>
+			and a Partridge in a Pear Tree<br/>
+		</p>
+	</div>
+	<div id="day3">
+		<p>
+			On the third day of Christmas<br/>
+			my true love sent to me:<br/>
+			Three French Hens<br/>
+			Two Turtle Doves<br/>
+			and a Partridge in a Pear Tree<br/>
+		</p>
+	</div>
+	<div id="day4">
+		<p>
+			On the fourth day of Christmas<br/>
+			my true love sent to me:<br/>
+			Four Calling Birds<br/>
+			Three French Hens<br/>
+			Two Turtle Doves<br/>
+			and a Partridge in a Pear Tree<br/>
+		</p>
+	</div>
+	<div id="day5">
+		<p>
+			On the fifth day of Christmas<br/>
+			my true love sent to me:<br/>
+			Five Golden Rings<br/>
+			Four Calling Birds<br/>
+			Three French Hens<br/>
+			Two Turtle Doves<br/>
+			and a Partridge in a Pear Tree<br/>
+		</p>
+	</div>
+	<div id="day6">
+		<p>
+			On the sixth day of Christmas<br/>
+			my true love sent to me:<br/>
+			Six Geese a Laying<br/>
+			Five Golden Rings<br/>
+			Four Calling Birds<br/>
+			Three French Hens<br/>
+			Two Turtle Doves<br/>
+			and a Partridge in a Pear Tree<br/>
+		</p>
+	</div>
+	<div id="day7">
+		<p>
+			On the seventh day of Christmas<br/>
+			my true love sent to me:<br/>
+			Seven Swans a Swimming<br/>
+			Six Geese a Laying<br/>
+			Five Golden Rings<br/>
+			Four Calling Birds<br/>
+			Three French Hens<br/>
+			Two Turtle Doves<br/>
+			and a Partridge in a Pear Tree<br/>
+		</p>
+	</div>
+	<div id="day8">
+		<p>
+			On the eighth day of Christmas<br/>
+			my true love sent to me:<br/>
+			Eight Maids a Milking<br/>
+			Seven Swans a Swimming<br/>
+			Six Geese a Laying<br/>
+			Five Golden Rings<br/>
+			Four Calling Birds<br/>
+			Three French Hens<br/>
+			Two Turtle Doves<br/>
+			and a Partridge in a Pear Tree<br/>
+		</p>
+	</div>
+	<div id="day9">
+		<p>
+			On the ninth day of Christmas<br/>
+			my true love sent to me:<br/>
+			Nine Ladies Dancing<br/>
+			Eight Maids a Milking<br/>
+			Seven Swans a Swimming<br/>
+			Six Geese a Laying<br/>
+			Five Golden Rings<br/>
+			Four Calling Birds<br/>
+			Three French Hens<br/>
+			Two Turtle Doves<br/>
+			and a Partridge in a Pear Tree<br/>
+		</p>
+	</div>
+	<div id="day10">
+		<p>
+			On the tenth day of Christmas<br/>
+			my true love sent to me:<br/>
+			Ten Lords a Leaping<br/>
+			Nine Ladies Dancing<br/>
+			Eight Maids a Milking<br/>
+			Seven Swans a Swimming<br/>
+			Six Geese a Laying<br/>
+			Five Golden Rings<br/>
+			Four Calling Birds<br/>
+			Three French Hens<br/>
+			Two Turtle Doves<br/>
+			and a Partridge in a Pear Tree<br/>
+		</p>
+	</div>
+	<div id="day11">
+		<p>
+			On the eleventh day of Christmas<br/>
+			my true love sent to me:<br/>
+			Eleven Pipers Piping<br/>
+			Ten Lords a Leaping<br/>
+			Nine Ladies Dancing<br/>
+			Eight Maids a Milking<br/>
+			Seven Swans a Swimming<br/>
+			Six Geese a Laying<br/>
+			Five Golden Rings<br/>
+			Four Calling Birds<br/>
+			Three French Hens<br/>
+			Two Turtle Doves<br/>
+			and a Partridge in a Pear Tree<br/>
+		</p>
+	</div>
+	<div id="day12">
+		<p>
+			On the twelfth day of Christmas<br/>
+			my true love sent to me:<br/>
+			12 Drummers Drumming<br/>
+			Eleven Pipers Piping<br/>
+			Ten Lords a Leaping<br/>
+			Nine Ladies Dancing<br/>
+			Eight Maids a Milking<br/>
+			Seven Swans a Swimming<br/>
+			Six Geese a Laying<br/>
+			Five Golden Rings<br/>
+			Four Calling Birds<br/>
+			Three French Hens<br/>
+			Two Turtle Doves<br/>
+			and a Partridge in a Pear Tree<br/>
+		</p>
+	</div>
+
+	<!-- Include JQuery -->
+	
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+	<!-- Include Plugin -->
+
+	<script src="js/scheduled-content.js"></script>
+
+	<!-- Example Usage -->
+
+	<script>
+
+		// Just End Date
+		$('#day1').scheduleContent({
+			end:'12/26/2014'
+		});
+
+		// Start and End Dates
+		$('#day2').scheduleContent({
+			start:'12/26/2014',
+			end:'12/27/2014'
+		});
+
+		$('#day3').scheduleContent({
+			start:'12/27/2014',
+			end:'12/28/2014'
+		});
+
+		$('#day4').scheduleContent({
+			start:'12/28/2014',
+			end:'12/29/2014'
+		});
+
+		$('#day5').scheduleContent({
+			start:'12/29/2014',
+			end:'12/30/2014'
+		});
+
+		$('#day6').scheduleContent({
+			start:'12/30/2014',
+			end:'12/31/2014'
+		});
+
+		$('#day7').scheduleContent({
+			start:'12/31/2014',
+			end:'01/01/2015'
+		});
+
+		$('#day8').scheduleContent({
+			start:'01/01/2015',
+			end:'01/02/2015'
+		});
+
+		$('#day9').scheduleContent({
+			start:'01/02/2015',
+			end:'01/03/2015'
+		});
+
+		$('#day10').scheduleContent({
+			start:'01/03/2015',
+			end:'01/04/2015'
+		});
+
+		$('#day11').scheduleContent({
+			start:'01/04/2015',
+			end:'01/05/2015'
+		});
+
+		// Just Start Date
+
+		$('#day12').scheduleContent({
+			start:'01/05/2015'
+		});
+
+	</script>
+
+
+</body>
+</html>
