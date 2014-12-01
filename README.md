@@ -48,7 +48,7 @@ $('#selector').scheduleContent({
 
 This will show the content between two dates.
 
-```
+``` javascript
 <script>
 $('#selector').scheduleContent({
 	start:'12/26/2014',
