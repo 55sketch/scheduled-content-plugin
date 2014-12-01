@@ -6,7 +6,7 @@ A JQuery plugin to show or hide content based on date and time.
 
 Download and include the plugin **after** including JQuery, at the bottom of your HTML file:
 
-```
+``` html
 <!-- Include JQuery -->
 
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -24,7 +24,7 @@ Using the plugin, you can specify a start date, and end date, or both.
 
 This will show the content only after a certain date.
 
-```
+``` javascript
 <script>
 	$('#selector').scheduleContent({
 	start:'12/26/2014'
@@ -36,7 +36,7 @@ This will show the content only after a certain date.
 
 This will show the content only before a certain date.
 
-```
+``` javascript
 <script>
 $('#selector').scheduleContent({
 	end:'12/26/2014'
